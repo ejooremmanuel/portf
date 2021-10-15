@@ -1,0 +1,43 @@
+h1 {
+  font-size: 70px;
+  padding-right: 20px;
+  font-weight: 900;
+  position: relative;
+}
+
+h1::after {
+  content: "";
+  display: block;
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+  background: #0066cc;
+  position: absolute;
+  bottom: 10px;
+  left: 400px;
+  z-index: -1;
+}
+
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+h3::after {
+  content: "";
+  display: block;
+  width: 70%;
+  height: 20px;
+  background: #0066cc;
+  position: relative;
+  bottom: 20px;
+  z-index: -1;
+}
+
+h4 {
+  font-size: 24px;
+  line-height: 30px;
+}
