@@ -16,15 +16,31 @@ const Project = () => {
       title: "An Image Search Widget",
       image:
         "https://res.cloudinary.com/ejooremmanuel/image/upload/v1634258932/imagesearch_kmcevo.png",
-      id: 1,
+      id: 2,
       desc: "Created with React and Semantic UI. An image search widget for web apps.",
       link: "https://searchappwith-react.vercel.app/",
+    },
+    {
+      title: "A Survey App",
+      image:
+        "https://res.cloudinary.com/ejooremmanuel/image/upload/v1634259797/survey_d52g09.png",
+      id: 3,
+      desc: "Created with Node.js, MongoDB and Express",
+      link: "https://surveywaaw.herokuapp.com/",
+    },
+    {
+      title: "A Website for a Start Up",
+      image:
+        "https://res.cloudinary.com/ejooremmanuel/image/upload/v1634260129/genius_knd2ad.png",
+      id: 3,
+      desc: "Created using WordPres",
+      link: "https://thegeniuscomputinghub.org.ng/",
     },
     {
       title: "UI Design for a Social Media Application",
       image:
         "https://res.cloudinary.com/ejooremmanuel/image/upload/v1634259169/socialapp_lg6yfa.png",
-      id: 1,
+      id: 4,
       desc: "Designed using Figma.",
       link: "https://www.figma.com/file/OaxcPxqhgzN7sGRsXkGfPL/solveitapp",
     },
@@ -56,7 +72,7 @@ const Project = () => {
   });
 
   return (
-    <Container style={{ marginTop: "3%" }}>
+    <Container style={{ marginTop: "3%", overflowY: "scroll", height: "70vh" }}>
       <div class="ui special cards">{renderedProjects}</div>
     </Container>
   );

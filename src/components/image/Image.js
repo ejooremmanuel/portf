@@ -27,6 +27,32 @@ const Image = () => {
             See projects...
           </Link>
         </button>
+        <div class="ui list">
+          <div class="item">
+            <i class="marker icon"></i>
+            <div class="content">Abuja, NG</div>
+          </div>
+          <div class="item">
+            <i class="mail icon"></i>
+            <div class="content">
+              <a href="mailto:ejooremmanuel@gmail.com">
+                ejooremmanuel@gmail.com
+              </a>
+            </div>
+          </div>
+          <div class="item">
+            <i class="linkedin icon"></i>
+            <div class="content">
+              <a href="https://www.linkedin.com/in/emmanuelejoor">Linkedin</a>
+            </div>
+          </div>
+          <div class="item">
+            <i class="github icon"></i>
+            <div class="content">
+              <a href="https://github.com/ejooremmanuel">GitHub</a>
+            </div>
+          </div>
+        </div>
       </div>
       <div className="right">
         <img
