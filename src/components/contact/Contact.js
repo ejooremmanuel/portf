@@ -10,12 +10,12 @@ const Contact = () => {
           <Form.Input fluid label="Last name" placeholder="Last name" />
         </Form.Group>
         <Form.TextArea
-          label="About"
+          label="Your message"
           style={{ resize: "none" }}
-          placeholder="Tell us more about you..."
+          placeholder="Please drop your message..."
         />
         <Form.Checkbox label="I agree to the Terms and Conditions" />
-        <Form.Button>Submit</Form.Button>
+        <Form.Button primary>Send</Form.Button>
       </Form>
     </Container>
   );
