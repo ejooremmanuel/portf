@@ -1,7 +1,6 @@
 import React from "react";
 
 const Footer = () => {
-  const { getFullYear } = Date.now();
   return (
     <div>
       <hr
