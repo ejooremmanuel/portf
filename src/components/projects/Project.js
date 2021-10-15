@@ -1,6 +1,5 @@
 import React from "react";
 import { Container } from "semantic-ui-react";
-import { Link } from "react-router-dom";
 
 const Project = () => {
   const projects = [
@@ -32,7 +31,7 @@ const Project = () => {
       title: "A Website for a Start Up",
       image:
         "https://res.cloudinary.com/ejooremmanuel/image/upload/v1634260129/genius_knd2ad.png",
-      id: 3,
+      id: 4,
       desc: "Created using WordPres",
       link: "https://thegeniuscomputinghub.org.ng/",
     },
@@ -40,7 +39,7 @@ const Project = () => {
       title: "UI Design for a Social Media Application",
       image:
         "https://res.cloudinary.com/ejooremmanuel/image/upload/v1634259169/socialapp_lg6yfa.png",
-      id: 4,
+      id: 5,
       desc: "Designed using Figma.",
       link: "https://www.figma.com/file/OaxcPxqhgzN7sGRsXkGfPL/solveitapp",
     },

@@ -1,6 +1,6 @@
 import React from "react";
-import { Container } from "semantic-ui-react";
 import { Link } from "react-router-dom";
+import { Container } from "semantic-ui-react";
 import "./Image.css";
 
 const Image = () => {
@@ -11,13 +11,14 @@ const Image = () => {
         display: "flex",
         alignItems: "center",
         justifyContent: "center",
+        width: "80%",
       }}
     >
       <div className="left">
         <h2>Hi! I'm</h2>
         <h1>Emmanuel Ejoor</h1>
         <h3>I am a full stack developer.</h3>
-        <h4 style={{ paddingRight: "120px" }}>
+        <h4 style={{ paddingRight: "20px" }}>
           I have proven experience and skills in designing awesome and
           interactive UI interfaces and platforms using React, NodeJS, Express
           and MongoDB.
@@ -56,6 +57,7 @@ const Image = () => {
       </div>
       <div className="right">
         <img
+          style={{ objectFit: "contain", width: "100%" }}
           src="https://res.cloudinary.com/ejooremmanuel/image/upload/v1634137371/ikql4bmrnctccjbv3lk5.png"
           alt=""
         />

@@ -10,12 +10,12 @@ import Image from "../src/components/image/Image";
 function App() {
   return (
     <Router>
-      <Container>
+      <>
         <Header />
-      </Container>
-      <Route path="/contact" render={Contact} exact />
-      <Route path="/" render={Image} exact />
-      <Route path="/project" render={Projects} exact />
+        <Route path="/contact" render={Contact} exact />
+        <Route path="/" render={Image} exact />
+        <Route path="/project" render={Projects} exact />
+      </>
     </Router>
   );
 }
