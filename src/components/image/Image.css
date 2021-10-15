@@ -6,17 +6,17 @@ h1 {
 h2 {
   font-size: 20px;
 }
-h3 {
+.desc {
   font-size: 30px;
   font-weight: 600;
 }
 
-h3::after {
+.desc::after {
   content: "";
   display: block;
   width: 70%;
   height: 20px;
-  background: #0066cc;
+  background: #0066cc73;
   position: relative;
   bottom: 20px;
   z-index: -1;
@@ -24,7 +24,7 @@ h3::after {
 
 h4 {
   font-size: 18px;
-  line-height: 20px;
+  line-height: 30px;
   margin-bottom: 20px;
 }
 

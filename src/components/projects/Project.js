@@ -71,7 +71,7 @@ const Project = () => {
   });
 
   return (
-    <Container style={{ marginTop: "3%", overflowY: "scroll", height: "70vh" }}>
+    <Container style={{ margin: "3% 0", overflowY: "scroll", height: "70vh" }}>
       <div class="ui special cards">{renderedProjects}</div>
     </Container>
   );

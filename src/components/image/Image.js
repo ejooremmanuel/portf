@@ -16,7 +16,7 @@ const Image = () => {
       <div className="left">
         <h2>Hi! I'm</h2>
         <h1>Emmanuel Ejoor</h1>
-        <h3>I am a full stack developer.</h3>
+        <h3 className="desc">I am a full stack developer.</h3>
         <h4 style={{ paddingRight: "50px" }}>
           I have proven experience and skills in designing awesome and
           interactive UI interfaces and platforms using React, NodeJS, Express
