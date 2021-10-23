@@ -47,7 +47,7 @@ const Project = () => {
       title: "Todo Application",
       image:
         "https://res.cloudinary.com/ejooremmanuel/image/upload/v1635013791/todo_u0hoqn.png",
-      id: 5,
+      id: 6,
       desc: "Created with Node.js and Express",
       link: "https://todobyejoor.herokuapp.com/",
     },
