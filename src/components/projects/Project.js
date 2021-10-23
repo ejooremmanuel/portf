@@ -43,6 +43,14 @@ const Project = () => {
       desc: "Designed using Figma.",
       link: "https://www.figma.com/file/OaxcPxqhgzN7sGRsXkGfPL/solveitapp",
     },
+    {
+      title: "Todo Application",
+      image:
+        "https://res.cloudinary.com/ejooremmanuel/image/upload/v1635013791/todo_u0hoqn.png",
+      id: 5,
+      desc: "Created with Node.js and Express",
+      link: "https://todobyejoor.herokuapp.com/",
+    },
   ];
 
   const renderedProjects = projects.map(({ title, image, id, desc, link }) => {
