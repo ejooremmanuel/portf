@@ -51,6 +51,30 @@ const Project = () => {
       desc: "Created with Node.js and Express",
       link: "https://todobyejoor.herokuapp.com/",
     },
+    {
+      title: "Todo Application with React",
+      image:
+        "https://res.cloudinary.com/ejooremmanuel/image/upload/v1636913225/todo_czunn2.png",
+      id: 7,
+      desc: "Created with Node.js and Express",
+      link: "https://todobyejoor.netlify.app/",
+    },
+    {
+      title: "Bitcoin Exchange Platform",
+      image:
+        "https://res.cloudinary.com/ejooremmanuel/image/upload/v1636913225/twp_jypuld.png",
+      id: 8,
+      desc: "Created with Node.js and Express",
+      link: "https://tradewithpower.net/",
+    },
+    {
+      title: "E-commerce with React and Node.js",
+      image:
+        "https://res.cloudinary.com/ejooremmanuel/image/upload/v1636913423/ecommerce_ji6p1h.png",
+      id: 9,
+      desc: "Created with Node.js and Express",
+      link: "https://ecommerce-nine-beta.vercel.app/",
+    },
   ];
 
   const renderedProjects = projects.map(({ title, image, id, desc, link }) => {
